@@ -1,7 +1,0 @@
----
-- name: MS-SQL Add User
-  hosts: "{{ win_vm }}"
-  gather_facts: False
-
-  roles:
-    - mssql_add_user
