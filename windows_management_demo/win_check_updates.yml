@@ -2,6 +2,7 @@
 - name: Check Windows Update
   hosts: all
   gather_facts: True
+  strategy: free
 
   tasks:
   - name: Check Windows Update
