@@ -2,6 +2,7 @@
 - name: Install Windows Update
   hosts: all
   gather_facts: True
+   strategy: free
 
   roles:
     - install_win_updates
