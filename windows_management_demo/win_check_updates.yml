@@ -1,7 +1,7 @@
 ---
 - name: Check Windows Update
   hosts: all
-  gather_facts: True
+  gather_facts: False
   strategy: free
 
 
