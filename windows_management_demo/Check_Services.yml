@@ -1,0 +1,12 @@
+---
+- name: Check Services
+  hosts: all
+  gather_facts: False
+  strategy: free
+
+
+
+  tasks:
+  - name: Check Services
+    include_role:
+      name: win_service
