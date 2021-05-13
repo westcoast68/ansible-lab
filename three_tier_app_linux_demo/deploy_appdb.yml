@@ -1,8 +1,0 @@
----
-- name: Setup database tier
-  hosts: appdbs
-  become: yes
-  gather_facts: true
-  roles:
-    - {name: base_config, tags: base-config}
-    - {name: geerlingguy.postgresql, tags: [dbs, postgres]}
