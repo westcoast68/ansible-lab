@@ -1,7 +1,0 @@
----
-- name: HA Proxy Configuration Update
-  hosts: haproxy1
-  gather_facts: false
-
-  roles:
-    - haproxy_config_update
