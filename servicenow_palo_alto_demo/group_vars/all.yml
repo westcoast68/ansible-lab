@@ -1,5 +1,0 @@
----
-paloalto_username: "admin"
-servicenow_instance: "dev12345"
-servicenow_table: "change_request"
-servicenow_username: "admin"
