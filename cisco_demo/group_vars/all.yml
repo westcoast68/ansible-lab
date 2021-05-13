@@ -1,4 +1,0 @@
----
-ssh_port: 22
-wait_time_after_reboot: 300
-wait_time_before_checking: 60

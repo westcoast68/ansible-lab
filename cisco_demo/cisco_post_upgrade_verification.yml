@@ -1,8 +1,0 @@
----
-- name: Cisco Post Upgrade Verification Checks
-  hosts: "{{ cisco_router }}"
-  connection: network_cli
-  gather_facts: no
-
-  roles:
-    - cisco_post_upgrade_verification

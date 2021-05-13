@@ -1,8 +1,0 @@
----
-- name: Cisco Backup Config
-  hosts: "{{ cisco_router }}"
-  connection: network_cli
-  gather_facts: no
-
-  roles:
-    - cisco_backup_config
