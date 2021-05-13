@@ -1,3 +1,0 @@
----
-fortinet_config_backup_path: /tmp/forti_backup/
-fortinet_username: admin

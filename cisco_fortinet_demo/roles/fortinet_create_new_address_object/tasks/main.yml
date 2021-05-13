@@ -1,3 +1,0 @@
----
-- include_tasks: create_new_address_objects.yml
-  loop: "{{ range(0, number_of_ip_segments|int) | list }}"

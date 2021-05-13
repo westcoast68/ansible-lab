@@ -1,3 +1,0 @@
----
-- include_tasks: update_firewall_policies.yml
-  loop: "{{ range(0, number_of_address_segments|int) | list }}"
