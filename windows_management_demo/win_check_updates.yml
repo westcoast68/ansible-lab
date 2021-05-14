@@ -3,9 +3,6 @@
   hosts: all
   gather_facts: False
   strategy: free
-
-
-
   tasks:
   - name: Check Windows Update
     include_role:
