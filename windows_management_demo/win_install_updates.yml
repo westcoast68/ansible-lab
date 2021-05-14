@@ -3,6 +3,5 @@
   hosts: all
   gather_facts: False
   strategy: free
-
   roles:
     - install_win_updates
